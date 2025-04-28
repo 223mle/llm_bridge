@@ -1,5 +1,5 @@
 [project]
-name = "change_here"
+name = "llm_bridge"
 version = "0.1.0"
 description = ""
 authors = [{ name = "daiki.tsutsui", email = "daiki.tsutsui@elyza.ai" }]
@@ -167,7 +167,7 @@ commands = [
   [
     "pytest",
     "--ignore=tests/local",
-    "--cov=src/change_here",
+    "--cov=src/llm_bridge",
     "--cov-branch",
     "--cov-report",
     "term-missing:skip-covered",
@@ -206,7 +206,7 @@ commands = [
 
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/change_here"]
+packages = ["src/llm_bridge"]
 
 [build-system]
 requires = ["hatchling"]

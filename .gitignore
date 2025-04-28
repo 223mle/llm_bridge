@@ -72,7 +72,7 @@ venv.bak/
 
 # === Editor/IDE関連 ===
 # VSCode
-# .vscode/
+.vscode/
 *.code-workspace
 
 # JetBrains IDEs (PyCharm, IntelliJ, etc.)
