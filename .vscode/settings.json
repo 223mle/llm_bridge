@@ -1,0 +1,29 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.tabSize": 4,
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit"
+        }
+    },
+    "mypy-type-checker.args": ["--config-file=pyproject.toml"],  // ruffはdefaultでpyproject.tomlを参照するため不要
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "editor.renderControlCharacters": true,  // タブや改行などの制御文字を可視化
+    "editor.bracketPairColorization.enabled": true,  // 括弧の対応を色分け
+    "editor.guides.bracketPairs": "active",  // 括弧の対応を強調
+    "editor.formatOnSave": true,  // 保存時に自動フォーマット
+    "editor.tabCompletion": "on",  // タブで補完
+    "editor.cursorBlinking": "smooth", // カーソルの点滅をスムーズなアニメーションに
+    "editor.cursorSmoothCaretAnimation": "on",  // カーソルの移動をスムーズなアニメーションに
+    "editor.minimap.enabled": false,  // ミニマップを非表示
+    "editor.detectIndentation": true,  // ファイルのインデントスタイルを自動検出
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "cSpell.words": [
+        "dotenv"
+    ],
+}
