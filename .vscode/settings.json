@@ -24,6 +24,7 @@
     "workbench.iconTheme": "vscode-icons",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "cSpell.words": [
-        "dotenv"
+        "dotenv",
+        "Pydantic"
     ],
 }
